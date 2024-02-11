@@ -39,6 +39,7 @@ def inject_ads(value, is_mobile):
                     size = 'mobile-leaderboard'
                 else:
                     size = 'banner'
+
                 ad_context = {
                     'div_id' : div_id,
                     'dfp' : dfp,
